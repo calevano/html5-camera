@@ -1,7 +1,6 @@
 # HTML 5 - Camera 
 
-I was testing this API that modern browsers support
-Estaba probando está API que los navegadores modernos soportan **(~~Fucking Internet 
+I was testing this API that modern browsers support **(~~Fucking Internet 
 Explorer~~)** and looking for documentation information  [Capturing Images with 
 HTML5](https://developers.google.com/web/fundamentals/media/capturing-images/) 
 
