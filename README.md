@@ -4,6 +4,7 @@ I was testing this API that modern browsers support
 Estaba probando está API que los navegadores modernos soportan **(~~Fucking Internet 
 Explorer~~)** and looking for documentation information  [Capturing Images with 
 HTML5](https://developers.google.com/web/fundamentals/media/capturing-images/) 
+
 I started playing a bit with this.
 
 I will define what I did:
@@ -21,7 +22,9 @@ So all this is contemplated in the code.
 Estaba probando está API que los navegadores modernos soportan **(~~Fucking Internet 
 Explorer~~)** y buscando información de la documentación  [Capturing Images with 
 HTML5](https://developers.google.com/web/fundamentals/media/capturing-images/) 
+
 Me puse ha jugar un poco con esto.
+
 Definiré lo que hice:
 
  1. Hacer uso de la API. 
