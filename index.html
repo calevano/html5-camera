@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Capturar Image</title>
+    <link href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=K2D:400,700" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet">
+    <link href="css/image.css" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+</head>
+
+<body>
+    <div id="loadingCssRipple">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div class="container h-100">
+
+        <div id="showModalPermission"></div>
+
+        <div class="row justify-content-md-center d-none" id="handleError"></div>
+
+        <div class="row h-100 justify-content-md-center align-items-center" id="handleSuccess">
+            <div class="display-cover">
+                <video id="player" autoplay class="w-100"></video>
+                <div class="controls d-none" id="controls">
+                    <button id="capture" type="button" class="btn btn-primary">
+                        <i class="material-icons">photo_camera</i>
+                    </button>
+                    <button id="download" type="button" class="btn btn-primary d-none">
+                        <i class="material-icons">cloud_download</i>
+                    </button>
+                    <button id="again" type="button" class="btn btn-primary d-none">
+                        <i class="material-icons">autorenew</i>
+                    </button>
+                </div>
+                <canvas id="snapshot" class="d-none w-100"></canvas>
+            </div>
+        </div>
+    </div>
+    <a href="#" id="downloader" download="image.png" class="d-none"></a>
+
+    <script src="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="//webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="js/image.js"></script>
+</body>
+
+</html>
