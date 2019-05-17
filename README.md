@@ -29,10 +29,9 @@ Definiré lo que hice:
 
  1. Hacer uso de la API. 
  2. Dar permisos para usarlo. 
- 3. Enfocarme bien yhacer la captura de la foto. 
+ 3. Enfocarme bien y hacer la captura de la foto. 
  4. En caso no me guste poder tomar otra.
- 5. Permitir guardar la foto en el mobile o PC ( dependiendo de donde lo
-    haga).
+ 5. Permitir guardar la foto en el mobile o PC ( dependiendo de donde lo haga ).
 
 Así que todo esto esta contemplado en el código.
 
